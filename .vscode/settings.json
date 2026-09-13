@@ -1,0 +1,21 @@
+// {
+//     "java.project.sourcePaths": [
+//         "University Management System\\src"
+//     ],
+//     "java.project.referencedLibraries": [
+//         "University Management System\\lib\\mysql-connector-j-26.7.0.jar",
+//         "d:\\University-Management-System\\University-Management-System\\University Management System\\lib\\rs2xml.jar",
+//         "d:\\University-Management-System\\University-Management-System\\University Management System\\lib\\jcalendar-1.4.jar"
+//     ]
+// }
+
+{
+    "java.project.sourcePaths": [
+        "University Management System/src"
+    ],
+    "java.project.referencedLibraries": [
+        "University Management System/lib/mysql-connector-j-26.7.0.jar",
+        "University Management System/lib/rs2xml.jar",
+        "University Management System/lib/jcalendar-1.4.jar"
+    ]
+}
