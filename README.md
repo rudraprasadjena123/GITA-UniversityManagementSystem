@@ -1,6 +1,6 @@
 # 🎓 University Management System
 
-A desktop-based **University Management System** developed using **Core Java, Object-Oriented Programming, Java Swing, JDBC, and MySQL**. The application provides an intuitive interface for managing student records efficiently with complete CRUD operations and database integration.
+A desktop-based **University Management System** developed using **Core Java, Object-Oriented Programming, Java Swing, JDBC, and MySQL**. This application provides an intuitive and efficient way to manage university student records with complete CRUD operations and database integration.
 
 ---
 
@@ -9,19 +9,23 @@ A desktop-based **University Management System** developed using **Core Java, Ob
 ### 🔐 Login Page
 
 <p align="center">
-  <img src="screenshots/login.png" width="800" alt="Login Page">
+  <img src="./login.png" width="850" alt="University Management System Login Page">
 </p>
+
+---
 
 ### 🏠 Dashboard
 
 <p align="center">
-  <img src="screenshots/dashboard.png" width="800" alt="Dashboard">
+  <img src="./dashboard.png" width="850" alt="University Management System Dashboard">
 </p>
+
+---
 
 ### 👨‍🎓 Student Management
 
 <p align="center">
-  <img src="screenshots/student-management.png" width="800" alt="Student Management">
+  <img src="./student-management.png" width="850" alt="Student Management">
 </p>
 
 ---
@@ -38,8 +42,8 @@ A desktop-based **University Management System** developed using **Core Java, Ob
 * 🗄️ MySQL Database Integration
 * 🔗 JDBC Database Connectivity
 * ♻️ Complete CRUD Operations
-* 🖥️ Interactive Java Swing GUI
-* 🧩 Object-Oriented Programming Architecture
+* 🖥️ Java Swing Graphical User Interface
+* 🧩 Object-Oriented Programming
 * 📊 Efficient Student Record Management
 
 ---
@@ -61,26 +65,24 @@ A desktop-based **University Management System** developed using **Core Java, Ob
 
 ## 🗄️ Database
 
-The application uses **MySQL** as the relational database for storing and managing student information.
+The application uses **MySQL** as its relational database for storing and managing student information.
 
-**JDBC (Java Database Connectivity)** is used to establish communication between the Java application and MySQL database.
+**JDBC (Java Database Connectivity)** is used to establish communication between the Java application and the MySQL database.
 
-### Database Operations
+### CRUD Operations
 
-The system supports:
-
-* **Create** → Add new student records
-* **Read** → Display student information
-* **Update** → Modify existing records
-* **Delete** → Remove student records
+| Operation  | Description                     |
+| ---------- | ------------------------------- |
+| ➕ Create   | Add new student records         |
+| 📖 Read    | Display student information     |
+| ✏️ Update  | Modify existing student records |
+| 🗑️ Delete | Remove student records          |
 
 ---
 
-## 🏗️ Project Architecture
+## 🏗️ OOP Concepts Used
 
-The project follows Object-Oriented Programming principles to keep the application organized, reusable, and maintainable.
-
-### Key OOP Concepts Used
+The project applies important **Object-Oriented Programming** concepts to create reusable and maintainable code.
 
 * 🔹 Classes and Objects
 * 🔹 Encapsulation
@@ -88,19 +90,19 @@ The project follows Object-Oriented Programming principles to keep the applicati
 * 🔹 Inheritance
 * 🔹 Polymorphism
 * 🔹 Constructors
-* 🔹 Methods and Method Overloading
+* 🔹 Methods
+* 🔹 Method Overloading
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-University-Management-System/
+GITA-UniversityManagementSystem/
 │
-├── screenshots/
-│   ├── login.png
-│   ├── dashboard.png
-│   └── student-management.png
+├── login.png
+├── dashboard.png
+├── student-management.png
 │
 ├── src/
 │   └── ...
@@ -126,7 +128,7 @@ git clone https://github.com/rudraprasadjena123/GITA-UniversityManagementSystem.
 
 ### 2️⃣ Open the Project
 
-Open the project using any Java-supported IDE:
+Open the project using a Java-supported IDE such as:
 
 * Visual Studio Code
 * IntelliJ IDEA
@@ -135,9 +137,9 @@ Open the project using any Java-supported IDE:
 
 ### 3️⃣ Configure MySQL
 
-Install MySQL and create the required database.
+Create the required database in MySQL.
 
-Update your database connection details in the Java source code:
+Update the database connection details in the Java source code:
 
 ```java
 String url = "jdbc:mysql://localhost:3306/your_database";
@@ -149,7 +151,7 @@ Replace the database name, username, and password with your own MySQL credential
 
 ### 4️⃣ Add Required Libraries
 
-Make sure the required `.jar` files are added to your project.
+Make sure the required `.jar` files are available in the project.
 
 Common dependencies include:
 
@@ -159,15 +161,13 @@ Common dependencies include:
 
 ### 5️⃣ Run the Application
 
-Run the main Java class of the project.
-
-The application will open the University Management System interface.
+Run the main Java class to start the University Management System.
 
 ---
 
 ## 🎯 Project Objective
 
-The main objective of this project is to develop a practical desktop application for managing university student information while applying concepts of:
+The main objective of this project is to develop a practical desktop application for managing university student information while applying real-world concepts of:
 
 * Core Java
 * Object-Oriented Programming
@@ -177,7 +177,7 @@ The main objective of this project is to develop a practical desktop application
 * CRUD Operations
 * Database Management
 
-The project demonstrates how a Java desktop application can interact with a relational database to perform real-world data management operations.
+The project demonstrates how a Java desktop application can communicate with a relational database and perform real-world data management operations.
 
 ---
 
@@ -219,13 +219,13 @@ The project can be further enhanced with:
 
 **B.Tech – Computer Science & Information Technology**
 
-🎯 Interested in:
+Interested in:
 
-* Java Development
-* Full-Stack Web Development
-* Artificial Intelligence
-* Machine Learning
-* Data Structures & Algorithms
+* ☕ Java Development
+* 🌐 Full-Stack Web Development
+* 🤖 Artificial Intelligence
+* 🧠 Machine Learning
+* 📚 Data Structures & Algorithms
 
 ---
 
@@ -248,4 +248,5 @@ This project is created for **educational and learning purposes**.
   <br>
   Built with ☕ Java + 🖥️ Swing + 🔗 JDBC + 🗄️ MySQL
 </p>
+
 
